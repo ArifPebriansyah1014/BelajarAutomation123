@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3E8D2F7F53AAB6F962443B8BB2D5A3DF",
+  "keywordClasses": [
+    {
+      "name": "stepDefinitions.PurchaseItem",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
