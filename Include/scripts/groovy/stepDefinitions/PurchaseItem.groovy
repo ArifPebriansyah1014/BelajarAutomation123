@@ -57,42 +57,46 @@ class PurchaseItem {
 
 	@When("user pilih dua item")
 	public void user_pilih_dua_item() {
-		WebUI.click(findTestObject('Object Repository/Add to Cart/button_Add to cart_backpack'))
-		WebUI.click(findTestObject('Object Repository/Add to Cart/button_Add to cart_bike_light'))
+		WebUI.click(findTestObject('Object Repository/Add to Cart/Barang_Backpack'))
+		WebUI.click(findTestObject('Object Repository/Add to Cart/Barang_Bike_Light'))
 	}
 
 	@When("user klik keranjang dan checkout")
 	public void user_klik_keranjang_dan_checkout() {
-		WebUI.click(findTestObject('Object Repository/Add to Cart/a_Swag Labs_shopping_cart_link'))
-		WebUI.click(findTestObject('Object Repository/Add to Cart/button_Checkout'))
+		WebUI.click(findTestObject('Object Repository/Add to Cart/Keranjang'))
+		WebUI.click(findTestObject('Object Repository/Add to Cart/Btn_Checkout'))
 	}
 
-	@When("user input firstname, lastname, postalcode")
-	public void user_input_firstname_lastname_postalcode() {
-
-		String firstName = findTestData("Data Files/Data Informasi").getValue("firstName", 1)
-		String lastName = findTestData("Data Files/Data Informasi").getValue("lastName", 1)
-		String postalCode = findTestData("Data Files/Data Informasi").getValue("postalCode", 1)
-
+	@When("user input {string}, {string}, {string}")
+	public void user_input_firstname_lastname_postalcode(String firstName, String lastName, String postalCode) {
+		
+//		GlobalVariable.firstName = firstName
+//		GlobalVariable.lastName = lastName
+//		GlobalVariable.postalCode = postalCode
+		
+//		String firstName = findTestData("Data Files/Data Informasi").getValue("firstName", GlobalVariable.selectedRow)
+//		String lastName = findTestData("Data Files/Data Informasi").getValue("lastName", GlobalVariable.selectedRow)
+//		String postalCode = findTestData("Data Files/Data Informasi").getValue("postalCode", GlobalVariable.selectedRow)
+		println("Data yang diterima di Feature File:")
 		println("firstName: " + firstName)
 		println("lastName: " + lastName)
 		println("postalCode: " + postalCode)
 
-		WebUI.setText(findTestObject('Object Repository/Add to Cart/input_Checkout Your Information_firstName'), firstName)
-		WebUI.setText(findTestObject('Object Repository/Add to Cart/input_Checkout Your Information_lastName'), lastName)
-		WebUI.setText(findTestObject('Object Repository/Add to Cart/input_Checkout Your Information_postalCode'), postalCode)
+		WebUI.setText(findTestObject('Object Repository/Add to Cart/Input_Checkout_Firstname'), firstName)
+		WebUI.setText(findTestObject('Object Repository/Add to Cart/Input_Checkout_Lastname'), lastName)
+		WebUI.setText(findTestObject('Object Repository/Add to Cart/Input_Checkout_Postalcode'), postalCode)
 	}
 
 	@When("user klik continue")
 	public void user_klik_continue() {
-		WebUI.click(findTestObject('Object Repository/Add to Cart/input_continue'))
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Add to Cart/div_Payment Information'), 0)
+		WebUI.click(findTestObject('Object Repository/Add to Cart/Btn_Continue'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Add to Cart/PaymentInformation'), 0)
 	}
 
 	@Then("user klik finish dan selesai melakukan pembayaran")
 	public void user_klik_finish_dan_selesai_melakukan_pembayaran() {
-		WebUI.click(findTestObject('Object Repository/Add to Cart/button_Finish'))
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Add to Cart/h2_Thank you for your order'), 0)
+		WebUI.click(findTestObject('Object Repository/Add to Cart/Btn_Finish'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Add to Cart/Notifikasi_BerhasilOrder'), 0)
 		WebUI.closeBrowser()
 	}
 }

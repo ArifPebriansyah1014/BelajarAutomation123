@@ -17,4 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+String firstName = GlobalVariable.firstName
+String lastName = GlobalVariable.lastName
+String postalCode = GlobalVariable.postalCode
+
+println("First Name: " + firstName)
+println("Last Name: " + lastName)
+println("Postal Code: " + postalCode)
+
 CucumberKW.runFeatureFile('Include/features/PurchaseItem.feature')

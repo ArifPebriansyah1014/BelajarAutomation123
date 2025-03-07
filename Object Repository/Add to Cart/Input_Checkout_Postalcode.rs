@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Input_Password</name>
+   <name>Input_Checkout_Postalcode</name>
    <tag></tag>
-   <elementGuidId>9c2869cb-da12-4bb5-9b88-0fdf3ff31a9d</elementGuidId>
+   <elementGuidId>d62fda88-480e-42d7-b4b1-694318f4121c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='password']</value>
+         <value>//input[@id='postal-code']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#password</value>
+         <value>#postal-code</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>dd930f5b-416a-40f3-b315-dc0216c30c07</webElementGuid>
+      <webElementGuid>90a4b6f4-ad7b-4189-8c8d-313ec8618317</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,47 +30,47 @@
       <name>class</name>
       <type>Main</type>
       <value>input_error form_input</value>
-      <webElementGuid>d08880b9-5669-424c-a7ee-aa886090c236</webElementGuid>
+      <webElementGuid>34e75efe-2806-4ff3-8e11-82d6eab5ec66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>fe1fff1e-99db-491e-add1-d57301f5b0e6</webElementGuid>
+      <value>Zip/Postal Code</value>
+      <webElementGuid>f3f4fa2f-faea-4054-b48c-ed85713ad4e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>f63a0d7e-36ac-4d3b-94e1-883dfd5130bc</webElementGuid>
+      <value>text</value>
+      <webElementGuid>9aebdbb3-2a5d-41f7-bf19-57b07588abf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-test</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>c3d16cfc-5e45-4597-824a-89cdb670db8b</webElementGuid>
+      <value>postalCode</value>
+      <webElementGuid>0a07ea32-47d3-4cb2-bd26-f3a546d57bbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>8868c1c9-33ad-4d53-9c64-891fc89ac961</webElementGuid>
+      <value>postal-code</value>
+      <webElementGuid>2fccf974-be94-4bfc-b917-c8f14034c03d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>36fe6b0b-87d2-4c12-8df4-0799ebae7786</webElementGuid>
+      <value>postalCode</value>
+      <webElementGuid>d91dd2fe-cde9-4f3e-bf90-d996c7699a7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>autocorrect</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>cfc69b6e-8299-4f29-ba7c-29a5955d6121</webElementGuid>
+      <webElementGuid>18b404d4-b56a-49f6-998c-e18b7db124be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,46 +86,46 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>95a60d0a-3569-4c20-b33f-29887872a951</webElementGuid>
+      <webElementGuid>d0184a75-e39e-4231-94dd-da0c95f2df8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;password&quot;)</value>
-      <webElementGuid>b30973cd-a936-403f-a3ef-35cae9db87d0</webElementGuid>
+      <value>id(&quot;postal-code&quot;)</value>
+      <webElementGuid>01f9e26a-ad29-4ed1-ab46-587936f86b7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='password']</value>
-      <webElementGuid>708450a2-390a-4e21-8000-55eba96e7e1b</webElementGuid>
+      <value>//input[@id='postal-code']</value>
+      <webElementGuid>afdb236c-a6cb-4c9f-88d7-a215daa49bb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='login_button_container']/div/form/div[2]/input</value>
-      <webElementGuid>de12e9f5-2f35-4352-bf4e-b120881b3d51</webElementGuid>
+      <value>//div[@id='checkout_info_container']/div/form/div/div[3]/input</value>
+      <webElementGuid>53d54477-4168-4d8e-a570-4557adcc245d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>8d73b644-e679-434c-a52f-383ae705bbfd</webElementGuid>
+      <value>//div[3]/input</value>
+      <webElementGuid>1a68fa8d-77dd-4c53-a94a-413ef3e606cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@placeholder = 'Password' and @type = 'password' and @id = 'password' and @name = 'password']</value>
-      <webElementGuid>7649cd52-080b-42f2-acf7-4d3fdb0df7f7</webElementGuid>
+      <value>//input[@placeholder = 'Zip/Postal Code' and @type = 'text' and @id = 'postal-code' and @name = 'postalCode']</value>
+      <webElementGuid>267a75cf-b4f4-4313-b9a5-e328c869cc36</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

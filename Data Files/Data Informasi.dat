@@ -7,9 +7,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>a4df1c40-c9a4-4044-9e09-7d0571867bbb</dataFileGUID>
-   <dataSourceUrl>C:\Users\DORAEMOON\Katalon Studio\Belajar With Mas Aldo\Data Files\Data Informasi.xlsx</dataSourceUrl>
+   <dataSourceUrl>Data Files/Data Informasi.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <properties>
       <entry>
          <key>readAsString</key>

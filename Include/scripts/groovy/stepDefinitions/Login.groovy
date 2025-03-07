@@ -56,15 +56,15 @@ class Login {
 		WebUI.setText(findTestObject('Object Repository/Login/input_username'), username)
 		WebUI.setText(findTestObject('Object Repository/Login/input_password'), password)
 	}
-	
+
 	@And("user klik login")
 	public void user_klik_login() {
-		WebUI.click(findTestObject('Object Repository/Login/login_button'))
+		WebUI.click(findTestObject('Object Repository/Login/Btn_Login'))
 	}
-	
+
 	@Then("user berhasil login")
 	public void user_berhasil_login() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Add to Cart/div_Swag Labs'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Add to Cart/SwagLabs'), 0)
 		WebUI.closeBrowser()
 	}
 }
