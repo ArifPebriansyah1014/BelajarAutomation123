@@ -43,7 +43,6 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 import stepDefinitions.Login
 
-
 class PurchaseItem {
 
 	Login login = new Login()
@@ -67,17 +66,13 @@ class PurchaseItem {
 		WebUI.click(findTestObject('Object Repository/Add to Cart/Btn_Checkout'))
 	}
 
-	@When("user input {string}, {string}, {string}")
-	public void user_input_firstname_lastname_postalcode(String firstName, String lastName, String postalCode) {
+	@When("user input firstName lastName postalCode")
+	public void user_input_firstName_lastName_postalCode() {
+
+		String firstName = GlobalVariable.GlobalFirstname
+		String lastName = GlobalVariable.GlobalLastname
+		String postalCode = GlobalVariable.GlobalPostalcode
 		
-//		GlobalVariable.firstName = firstName
-//		GlobalVariable.lastName = lastName
-//		GlobalVariable.postalCode = postalCode
-		
-//		String firstName = findTestData("Data Files/Data Informasi").getValue("firstName", GlobalVariable.selectedRow)
-//		String lastName = findTestData("Data Files/Data Informasi").getValue("lastName", GlobalVariable.selectedRow)
-//		String postalCode = findTestData("Data Files/Data Informasi").getValue("postalCode", GlobalVariable.selectedRow)
-		println("Data yang diterima di Feature File:")
 		println("firstName: " + firstName)
 		println("lastName: " + lastName)
 		println("postalCode: " + postalCode)

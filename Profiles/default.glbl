@@ -7,16 +7,16 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>firstName</name>
+      <name>GlobalFirstname</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>lastName</name>
+      <name>GlobalLastname</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>postalCode</name>
+      <name>GlobalPostalcode</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

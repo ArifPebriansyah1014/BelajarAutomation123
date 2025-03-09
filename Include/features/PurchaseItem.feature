@@ -3,14 +3,10 @@ Feature: Title of your feature
   I want to use this template for my feature file
 
   @PurchaseItem
-  Scenario Outline: Title of your scenario outline
+  Scenario: Title of your scenario outline
     Given user berada di halaman utama web
     When user pilih dua item
     And user klik keranjang dan checkout
-    And user input "<firstName>", "<lastName>", "<postalCode>"
+    And user input firstName lastName postalCode
     And user klik continue
     Then user klik finish dan selesai melakukan pembayaran
-    
-    Examples:
-     | firstName | lastName | postalCode |
-     |           |         |            |

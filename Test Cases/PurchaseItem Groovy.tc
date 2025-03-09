@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Purchase Item</name>
+   <name>PurchaseItem Groovy</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f53993d0-a01f-44e8-9b00-fe40d24ea7cd</testCaseGuid>
+   <testCaseGuid>9cdfc709-a417-41c3-8f24-52e97a37918d</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>66e83773-c867-47d3-9351-74aeb6606a44</variableId>
+      <variableId>63b58cd4-cbf2-4226-ad7e-f9b3d79f0a09</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>2b31f017-326a-4101-83a2-b9e371a6d314</variableId>
+      <variableId>1133a8ec-3a17-42e5-9aa6-8965883dab8f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>dec1884b-3bd9-41b5-b661-f9df1bc2a931</variableId>
+      <variableId>349f641c-49a1-40d6-867c-4e72b701a299</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>66e83773-c867-47d3-9351-74aeb6606a44</id>
+      <id>63b58cd4-cbf2-4226-ad7e-f9b3d79f0a09</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>2b31f017-326a-4101-83a2-b9e371a6d314</id>
+      <id>1133a8ec-3a17-42e5-9aa6-8965883dab8f</id>
       <masked>false</masked>
       <name>lastName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>dec1884b-3bd9-41b5-b661-f9df1bc2a931</id>
+      <id>349f641c-49a1-40d6-867c-4e72b701a299</id>
       <masked>false</masked>
       <name>postalCode</name>
    </variable>
